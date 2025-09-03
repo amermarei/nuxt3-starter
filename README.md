@@ -76,7 +76,3 @@ pnpm preview
 ├── package.json
 ├── pnpm-lock.yaml
 └── README.md
-
-```
-
-```
