@@ -1,41 +1,35 @@
-# Nuxt Minimal Starter
+# 🚀 Nuxt 3 Starter Project
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a **Nuxt 3** starter project built with:
+
+- **Node.js 20.5**
+- **pnpm** package manager
+- **TypeScript**
+- Ready for future integrations (i18n, Tailwind, etc.)
+
+---
+
+## 📦 Requirements
+
+Before you begin, make sure you have installed:
+
+- [Node.js 20.5+](https://nodejs.org/)
+- [pnpm](https://pnpm.io/) (v8+ recommended)
 
 ## Setup
 
 Make sure to install dependencies:
 
 ```bash
-# npm
-npm install
-
 # pnpm
 pnpm install
 
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
 ```bash
-# npm
-npm run dev
-
 # pnpm
 pnpm dev
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
 ## Production
@@ -43,33 +37,41 @@ bun run dev
 Build the application for production:
 
 ```bash
-# npm
-npm run build
-
 # pnpm
 pnpm build
 
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
 
-```bash
-# npm
-npm run preview
-
 # pnpm
+
 pnpm preview
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## 📂 Project Directory Structure
+
+.
+├── .nuxt/              # Auto-generated build files
+├── node_modules/
+├── public/             # Static assets
+├── assets/
+│   └── css/
+│       └── main.css
+├── pages/              # Application pages (auto-routed)
+├── components/         # Reusable Vue components
+├── composables/        # Vue 3 composables
+├── layouts/            # App layouts
+├── plugins/            # Nuxt plugins
+├── locales/            # Translation files (optional)
+├── i18n.config.ts      # i18n setup
+├── app.vue             # Root component
+├── nuxt.config.ts      # Nuxt configuration
+├── tailwind.config.js  # Tailwind configuration
+├── i18n.config.ts      # i18n configuration
+├── package.json
+├── pnpm-lock.yaml
+└── README.md
+
+```
