@@ -53,26 +53,28 @@ pnpm preview
 
 ```
 
-## 📂 Project Directory Structure
+# 📂 Project Directory Structure
 
+```
 .
-├── .nuxt/ # Auto-generated build files
+├── .nuxt/                  # Auto-generated build files
 ├── node_modules/
-├── public/ # Static assets
+├── public/                 # Static assets
 ├── assets/
-│ └── css/
-│ └── main.css
-├── pages/ # Application pages (auto-routed)
-├── components/ # Reusable Vue components
-├── composables/ # Vue 3 composables
-├── layouts/ # App layouts
-├── plugins/ # Nuxt plugins
-├── locales/ # Translation files (optional)
-├── i18n.config.ts # i18n setup
-├── app.vue # Root component
-├── nuxt.config.ts # Nuxt configuration
-├── tailwind.config.js # Tailwind configuration
-├── i18n.config.ts # i18n configuration
+│   └── css/
+│       └── main.css
+├── pages/                  # Application pages (auto-routed)
+├── components/             # Reusable Vue components
+├── composables/            # Vue 3 composables
+├── layouts/                # App layouts
+├── plugins/                # Nuxt plugins
+├── locales/                # Translation files (optional)
+├── i18n.config.ts          # i18n setup
+├── app.vue                 # Root component
+├── nuxt.config.ts          # Nuxt configuration
+├── tailwind.config.js      # Tailwind configuration
+├── postcss.config.js       # PostCSS config (used by Tailwind)
 ├── package.json
 ├── pnpm-lock.yaml
 └── README.md
+```
